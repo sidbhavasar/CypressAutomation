@@ -1,0 +1,26 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ChromeHeaded": "node_modules\\.bin\\cypress run --browser chrome --headed",
+    "ChromeHeadless": "node_modules\\.bin\\cypress run --browser chrome --headless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidbhavasar/CypressAutomation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidbhavasar/CypressAutomation/issues"
+  },
+  "homepage": "https://github.com/sidbhavasar/CypressAutomation#readme",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  },
+  "dependencies": {
+    "cypress-iframe": "^1.0.1"
+  }
+}
